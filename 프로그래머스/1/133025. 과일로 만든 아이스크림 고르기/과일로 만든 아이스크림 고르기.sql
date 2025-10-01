@@ -7,4 +7,4 @@ FROM (
 ) fh
 JOIN ICECREAM_INFO
     USING(flavor)
-WHERE ingredient_type = 'fruit_based'
+WHERE ingredient_type = 'fruit_based';
