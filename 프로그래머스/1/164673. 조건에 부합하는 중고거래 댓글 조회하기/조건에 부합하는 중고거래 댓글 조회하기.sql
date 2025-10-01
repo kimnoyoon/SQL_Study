@@ -16,4 +16,4 @@ JOIN (
     FROM USED_GOODS_REPLY
 ) ugr
 USING(board_id)
-ORDER BY ugr.created_date, ugb.title
+ORDER BY ugr.created_date, ugb.title;
