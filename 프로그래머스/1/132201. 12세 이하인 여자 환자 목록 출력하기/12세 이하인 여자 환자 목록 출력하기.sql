@@ -7,4 +7,4 @@ SELECT
     CASE WHEN tlno IS NULL THEN 'NONE' ELSE tlno END AS tlno
 FROM PATIENT
 WHERE age <= 12 AND gend_cd = 'W'
-ORDER BY age DESC, pt_name
+ORDER BY age DESC, pt_name;
